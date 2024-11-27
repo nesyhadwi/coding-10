@@ -1,0 +1,62 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=username], input[type=password] {
+    width: 20%;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+    color: #f1f1f1;
+    box-sizing: content-box;
+    text-align: left;
+    display: block;
+    
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 20px;
+    color:white;
+    box-sizing: content-box;
+    text-align: left;
+    background-color: black;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-style: normal;
+    color: #000000;
+    font-size: x-large;
+}
+
+
+.bg {
+    background-image: url('background.jpg'); 
+    background-size: cover;
+    height: 120px;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.centerbox {
+    width: 500px; 
+    margin: 0 auto; 
+    padding: 15px; 
+    text-align: center; 
+}
+
+span.Forgot {
+    text-align: center;
+    padding-top: 16px;
+    display: block;
+      
+}

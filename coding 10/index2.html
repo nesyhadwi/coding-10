@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<fieldset>
+    <legend>Personal details</legend>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> belajar form</title>
+    </head>
+    <body>
+        <h1>Input Data Siswa SMKN 1 SUBANG</h1>
+        <hr>
+
+        <label for="nama"> Nama Lengkap :</label>
+        <input type="text" id="nama" placeholder="Ex. John Doe" />
+        <br></br>
+        
+        <label for="nis"> Nomor Induk Siswa :</label>
+        <input type="number" id="nis" placeholder="Ex. 12220012"/>
+        <br></br>
+
+        <label for="sandi">Kata Sandi :</label>
+        <input type="passsword" id="sandi" placeholder="Ex. --------"/>
+        <br></br>
+
+        <label> Jenis kelamin :</label>
+        <input type="radio" id="L" name="Jk"/><label for="L">Laki-laki</label>
+        <input type="radio" id="P" name="Jk"/><label for="P">Perempuan</label>
+        <br></br>
+
+        <label> Hobi :</label>
+        <input type="checkbox" id="hb1" name="Jk"/><label for="hb1">Membaca novel</label>
+        <input type="checkbox" id="hb2" name="Jk"/><label for="hb2">Menonton film</label>
+        <input type="checkbox" id="hb3" name="Jk"/><label for="hb3">Berenang</label>
+        <input type="checkbox" id="hb4" name="Jk"/><label for="hb4">MENCINTAIKU</label>
+        <br></br>
+
+        <label for="kelas"> Kelas :</label>
+        <select id="kelas">
+            <option> -- Pilih Kelas -- </option>
+            <option>10 RPL 1</option>
+            <option>10 RPL 2</option>
+            <option>10 TKJ 1</option>
+            <option>10 TKJ 2</option>
+        </select>
+        <br></br>
+
+        <label for="alamat">Alamat :</label>
+        <textarea id="alamat" placeholder="Ex. Cijambe"></textarea>
+        <br></br>
+
+        <label for="upload">Unggah foto</label>
+        <input type="file" id="upload"/>
+        <br></br>
+        <input type="submit" value="simpan data"/>
+        <a href="#"><button>Kembali</button></a>
+    </body>
+</fieldset>
+</html>

@@ -1,0 +1,34 @@
+* {
+    margin: 0; /* Membuat jarak antar objek */
+    padding: 0; /* Membuat jarak antar antar isi dengan kotak */
+    font-family: 'Cambria', serif; /* Merubah jenis teks */
+}
+
+.bg {
+    background-image: url('background4.jfif'); /* Memasang sebuah gambar Background */
+    background-size: cover; /* Agar background menyesuaikan ukuran */
+    height: 120px; /* Agar tinggi background sesuai dengan device */
+}
+
+.photo {
+    width: 200px; /*lebar foto sebesar 200px */
+    height: 200px; /* Tinggi foto 200px */
+    border-radius: 60%; /* Mengatur sudut foto */
+    
+}
+
+.title {
+    color: antiquewhite; /* warna teks */
+    margin: 10px auto;  /* Membuat jarak antar objek */
+    text-align: center; /* mengatur posisi teks agar di tengah */
+}
+
+.centerbox {
+    width: 500px; /* Lebar foto 500px */
+    border: 1px solid antiquewhite; /* Membuat garis tepi */
+    margin: 0 auto; /* Membuat jarak antar objek */
+    padding: 15px; /* Membuat jarak antar antar isi dengan kotak */
+    background-color: rgba(168, 167, 166, 0.685); /*Mengisi background dengan warna */
+    color: rgb(63, 60, 58); /* Warna teks */
+    text-align: center; /* mengatur posisi teks agar di tengah */
+}
