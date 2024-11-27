@@ -1,0 +1,137 @@
+body {
+  min-height: 3000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #dde6ed;
+}
+
+#projects {
+  background-color: #dde6ed;
+  padding: 10px;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card1 {
+  position: relative;
+  width: 80%;
+  
+}
+
+.card-img-top1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.card-body1 {
+  transition: 0.5 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card1:hover .card-img-top1 {
+  opacity: 0.3;
+}
+
+.card1:hover .card-body1 {
+  opacity: 1;
+}
+
+.text1 {
+  background-color: #27374d;
+  color: #dde6ed;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.card2 {
+  position: relative;
+  width: 90%;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.card-img-top2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.card-body2 {
+  transition: 0.5 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card2:hover .card-img-top2 {
+  opacity: 0.3;
+}
+
+.card2:hover .card-body2 {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: #27374d;
+  color: #dde6ed;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.card3 {
+  position: relative;
+  width: 80%;
+  margin: 0 80px;
+}
+
+.card-img-top3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.card-body3 {
+  transition: 0.5 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: -10%;
+  padding-right: 2%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.card3:hover .card-img-top3 {
+  opacity: 0.3;
+}
+
+.card3:hover .card-body3 {
+  opacity: 1;
+}
+
+.text3 {
+  background-color: #27374d;
+  color: #dde6ed;
+  font-size: 16px;
+  padding: 16px 32px;
+}
