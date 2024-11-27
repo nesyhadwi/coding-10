@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+  background-color: #dcf2f1;
+  height: 100vh;
+  width: 80%;
+  margin: 20px 0px 0px 130px;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: #0F1035;
+  display: inline-block;
+}
+
+.container h1 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #365486;
+    color: white;
+    padding: 15px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0F1035;
+}
+
+.data-jurusan-btn {
+     background-color: #365486;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;  
+    display: block;
+}
+
+/* .buat-akun-btn {
+    background-color: #365486;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buat-akun-btn:hover {
+    background-color: #0F1035;
+}
+
+.data-jurusan-btn {
+    background-color: #365486;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.data-jurusan-btn:hover {
+    background-color: #0F1035;
+}
+
+
+.lihat-data-btn {
+    background-color: #365486;
+    color: white;
+   padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lihat-data-btn:hover {
+    background-color: #0F1035;
+}
+
+
+.riwayat-transaksi-btn {
+    background-color: #365486;
+    color: white;
+   padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.riwayat-transaksi-btn:hover {
+    background-color: #0F1035;
+}
+
+.tambah-transaksi-btn {
+    background-color: #365486;
+    color: white;
+   padding: 20px;
+    width: 200px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tambah-transaksi-btn:hover {
+    background-color: #0F1035;
+} */
