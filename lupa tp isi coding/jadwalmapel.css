@@ -1,0 +1,59 @@
+.bg {
+  background-color: blueviolet;
+}
+
+.container {
+  width: 900px;
+  height: 600px;
+  margin: 20px auto;
+  position: relative;
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 5%;
+  text-align: left;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
+
+.iden button {
+    margin-right: 25px;
+    width: 50%;
+    height: 30px;
+    display: block;
+}
+.iden .a {
+  width: 250px;
+  background-color: rgb(222, 169, 233);
+  height: 30px;
+  padding-top: 2px;
+  text-align: left;
+  float: right;
+  margin-top: 1px;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.iden .b {
+  width: 250px;
+  background-color:rgb(222, 169, 233);
+  height: 30px;
+  padding-top: 2px;
+  text-align: left;
+  float: right;
+  margin-top: 1px;
+  border-color: aqua;
+  border-radius: 3px;
+  border: 0px;
+}

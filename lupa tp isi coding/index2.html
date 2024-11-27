@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Template</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+       {
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      body {
+        font-family: "Verdana", Geneva, Tahoma, sans-serif;
+      }
+
+      header {
+        background-color: rgb(13, 18, 61);
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        font-family: "Verdana", Geneva, Tahoma, sans-serif;
+      }
+
+      nav {
+        float: left;
+        width: 30%;
+        height: 600px;
+        background: #b8b5b5;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 64%;
+        background-color: rgb(223, 221, 221);
+        height: 600px; /* only for demonstration, should be removed */
+      }
+
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: rgb(13, 18, 61);
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 800px) {
+        nav,
+        article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Subang</h2>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Museum Wisma Karya</a></li>
+          <li><a href="index2.html">Water Boom Planet</a></li>
+          <li><a href="index3.html">Pantai Patimban</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1>Museum Wisma Karya</h1>
+        <img
+          src="Area-kolam-dan-wahana-waterboom-subang-640x400.jpg"
+          alt=""
+          width="200px"
+          height="200px"
+        />
+        <p>
+          Planet Waterboom telah menjadi objek wisata yang menyegarkan untuk
+          masyarakat Subang. Usianya hingga tahun 2019 ini sudah terbilang tidak
+          muda lagi. Karena objek wisata ini didirikan sejak tahun 2010.
+        </p>
+        <p>
+          Planet Waterboom memberikan fasilitas kolam renang dan wahana
+          permainan air yang seru. Terdapat beberapa kolam dengan keseruannya
+          masing-masing. Misalnya terdapat kolam arus, kolam ombak, serta tak
+          lupa kolam biasa.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <p>&copy; by Nesyha</p>
+    </footer>
+  </body>
+</html>
